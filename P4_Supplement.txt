@@ -1,0 +1,10 @@
+# P4_Supplement
+# Add your answer to  QS3.1 [optional] and QS7.1 [mandatory] using 
+
+QS3.1 [option]:
+
+
+
+QS7.1: For which of the test cases do you notice differences emerging in the shading of the squares? Can you explain why some squares get lighter and some squares get darker?
+
+A7.1: I only notice significant differences in shading in the second and third tests, but (I think?) I see very light differences in shading in some of the farthest corners of the fourth test. From what I understand about the ghost movements, they generally try to stay away from corners and dead ends most of the time if not given a specific place to move. Additionally, in the case of the second test, the ghost only moves around the bottom of the enclosed loop, never straying towards the top. So, if I had to give a guess as to why the squares change in shade, I would say that the lighter shades represent squares where the ghost is more likely to visit, while darker shades represent squares the ghost will very rarely visit, if ever.
